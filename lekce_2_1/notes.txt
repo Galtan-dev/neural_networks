@@ -1,0 +1,8 @@
+soubor bat lze spustit poklepáním a jsou to příkazy na cmd řádku
+když chci měnit nastavení tak ve formátu jako je na začátku prvního skriptu si do pycharm konfigurace runu změním.
+sigmoid pro jednovrstvnou síť není to pravé ořechové
+první zápočotvý úkol:
+    náhodné vstupní váhy jsou ze seed
+    co když ten model udělá ještě jednou a použije jiné náhodné veličiny
+    zadání na moodlu
+    - zkusit 5 krát model udělat a poznamenat přesnost, udělat průměr a odchylku...
