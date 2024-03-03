@@ -18,6 +18,12 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 import time
 
+
+"""
+Přidal jsem si do tohoto skriptu svoje poznámky tak jen pro info
+"""
+
+
 print("Num GPUs Available: ", torch.cuda.device_count())
 
 from mnist import MNIST
@@ -245,3 +251,7 @@ if __name__ == "__main__":
     args = parser.parse_args([] if "__file__" not in globals() else None)
     statistical_resolution = main(args)
     print(statistical_resolution)
+    f = open("outputValue.txt", "w")
+    f.write(f"{round(statistical_resolution[0], 6)}\n"
+            f"{round(statistical_resolution[1], 6)}")
+

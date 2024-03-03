@@ -140,7 +140,7 @@ def main(args):
         # print(f'train_loss: {train_loss:.4f} - train_acc: {train_acc:.4f} - train_time: {train_time:.4f} ms')
         writer.add_scalar("Loss/train", train_loss, epoch)
         writer.add_scalar("Accuracy/train", train_acc, epoch)
-        writer.add_scalar("Training_time/Train",train_time, epoch)  # jen vypsání v tensorboardu
+        writer.add_scalar("Training_time/Train", train_time, epoch)  # jen vypsání v tensorboardu
         writer.flush()
 
         # Validation
